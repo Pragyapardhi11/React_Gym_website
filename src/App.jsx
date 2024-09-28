@@ -16,6 +16,7 @@ import Navbar from './Navbar';
 import Testimonial from './Testimonial';
 
 const App = () => {
+  
   useEffect(() => {
     AOS.init({
       offset: 100,

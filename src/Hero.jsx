@@ -1,5 +1,3 @@
-import React from 'react';
-
 
 const Bgstyle = {
   backgroundImage: `url(${"https://gym-tcj.netlify.app/assets/hero-eOt2URp1.jpg"})`,
@@ -13,6 +11,7 @@ const Bgstyle = {
 
 const Hero = () => {
   return (
+    
     <div style={Bgstyle} className=  'duration-200 bg-white dark:bg-black dark:text-white'>
       <div className='duration-200 bg-white/70 dark:bg-black/70'>
       <div className='container  min-h-[620px]'>

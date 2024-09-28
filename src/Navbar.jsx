@@ -3,6 +3,7 @@ import Darkmode from "./Darkmode";
 
 export const Navlinks = [
   {
+    
     id: 1,
     Name: 'Home',
     Link: '/home',
@@ -18,6 +19,7 @@ export const Navlinks = [
     Link: '/join',
   },
 ];
+
 
 const Navbar = () => {
   return (
